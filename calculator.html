@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        .container {
+            text-align: center;
+            /* border: 3px solid black; */
+            margin-top: 30px;
+            /* width: 220px;
+         height: 250px; */
+            font-size: 22px;
+            color: rgb(47, 151, 151);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .calculator {
+            border: 5px solid rgb(80, 209, 123);
+            display: inline-block;
+            background-color: aqua;
+            padding: 15px;
+            border-radius: 15px;
+        }
+
+        input {
+            font-size: 34px;
+            margin-bottom: 4px;
+            height: 49px;
+            width: 296px;
+            border: 4px solid rgb(63, 130, 192);
+            border-radius: 20px;
+        }
+
+        button {
+            font-size: 23px;
+            margin: 2px;
+            background-color: lightskyblue;
+            height: 45px;
+            width: 73px;
+            border-radius: 6px;
+        }
+
+        button:hover{
+            background-color: rgb(178, 144, 211) ;
+        }
+
+        table {
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1> Calculator </h1>
+        <div class="calculator">
+            <input type="text" name="screen" id="screen">
+            <table>
+
+                <tr>
+                    <td><button>(</button></td>
+                    <td><button>)</button></td>
+                    <td><button>C</button></td>
+                    <td><button>%</button></td>
+
+                </tr>
+
+                <tr>
+                    <td><button>1</button></td>
+                    <td><button>2</button></td>
+                    <td><button>3</button></td>
+                    <td><button>X</button></td>
+
+                </tr>
+
+                <tr>
+                    <td><button>4</button></td>
+                    <td><button>5</button></td>
+                    <td><button>6</button></td>
+                    <td><button>-</button></td>
+
+                </tr>
+
+                <tr>
+                    <td><button>7</button></td>
+                    <td><button>8</button></td>
+                    <td><button>9</button></td>
+                    <td><button>+</button></td>
+
+                </tr>
+
+
+                <tr>
+                    <td><button>.</button></td>
+                    <td><button>0</button></td>
+                    <td><button>=</button></td>
+                    <td><button>/</button></td>
+
+                </tr>
+
+            </table>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="calculator.js"></script>
+</body>
+
+</html>
